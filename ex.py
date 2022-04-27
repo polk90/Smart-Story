@@ -54,10 +54,8 @@ def start_over(update: Update, context: CallbackContext) -> int:
     query.answer()
     keyboard = [
         [
-            InlineKeyboardButton("1", callback_data=str(ONE)),
+            InlineKeyboardButton("Начать читать книги", callback_data=str(ONE)),
             InlineKeyboardButton("2", callback_data=str(TWO)),
-            InlineKeyboardButton("3", callback_data=str(THREE)),
-            InlineKeyboardButton("4", callback_data=str(FOUR)),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
