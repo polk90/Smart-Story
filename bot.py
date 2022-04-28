@@ -43,7 +43,7 @@ def button(update: Update, context: CallbackContext) -> None:
                 cur = base.cursor()
                 state = "'" + str(qd[2]) + "'"
                 newid = "'" + str(qd[1]) + "'"
-                text = cur.execute("SELECT rating FROM " + newid + " where state = " + state).fetchall()
+                text = cur.execute("SELECT rating FROM books where id = " + newid).fetchall()
                 keyboard = [
                     [
                         InlineKeyboardButton("Вернуться к списку книг", callback_data='0'),
