@@ -1,1 +1,0 @@
-print('kkkk'.split('s'))
