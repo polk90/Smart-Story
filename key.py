@@ -1,2 +1,0 @@
-5174488691:AAGsK3FwP-cO52ARgiuxgpbuBCzKb6_nQKQ
-⚡✫Ꮎ🌚
